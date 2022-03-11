@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 1rem;
+    padding: .5rem;
+    list-style: none;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 66%;
+    margin: auto;
+    border-radius: .5rem;
+    padding: .6rem;
+}
+
+select{
+    padding: .6rem;
+    width: 10rem;
+    margin: .6rem;
+}
+
+img{
+    max-width: 20rem;
+}
