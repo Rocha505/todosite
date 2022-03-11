@@ -77,10 +77,7 @@ function carregar(){
         msg.innerHTML = `<p>Agora é ${hora} hora</p>`
     }
 
-    if(hora >= 0 && hora <= 5 ){
-        img.src = 'images/madrugada.png'
-        document.body.style.background = '#0b3e7f'
-    }else if(hora >= 6 && hora <12 ){
+    if(hora >= 0 && hora <= 11 ){
         img.src = 'images/manha.png'
         document.body.style.background = '#dbc9c3'
     }else if(hora >= 12 && hora < 18){
@@ -89,13 +86,8 @@ function carregar(){
     }else if(hora >= 18 && hora <= 23){
         img.src = 'images/noite.png'
         document.body.style.background = '#2d1d1e'
-    }else if(hora >= 24){
-        msg.innerHTML = `<p>A hora ${hora} é incompatível </p>`
-        img.src = 'images/erro.gif'
-        document.body.style.background = 'red'
     }else{
         `<p>Error</p>`
-        img.src = 'images/erro.gif'
         document.body.style.background = 'red'
     }
 }
